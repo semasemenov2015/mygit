@@ -220,31 +220,94 @@
 
             <div class="container">
                 <div class="explore">
-
+                    <p><input list="character">
+                        <datalist id="character">
+                            <option value="Чебурашка"></option>
+                            <option value="Крокодил Гена"></option>
+                            <option value="Шапокляк"></option>
+                        </datalist></p>
                 </div>
                 <div class="filter">
+                        <div class="trendingnow">
+                            <h3 class="h3-catalog">Trending now</h3>
+                            <ul>
+                                <li ><a href="#">Bohemian</a>|<a href="#">Floral</a>|<a href="#">Lace</a></li>
+                                <li ><a href="#">Floral</a>|<a href="#">Lace</a>|<a href="#">Bohemian</a></li>
+                            </ul>
 
+                        </div>
+
+                            <div class="trendingnow">
+                                <h3 class="h3-catalog">Size </h3>
+                                    <ul>
+
+                                <li><div class="input"><input type="checkbox" name="a" value="XXS"> XXS</div>
+                                    <div class="input"><input type="checkbox" name="a" value="XS"> XS</div>
+                                    <div class="input"><input type="checkbox" name="a" value="XS"> XS</div>
+                                    <div class="input"><input type="checkbox" name="a" value="S"> S</div>
+                                    <div class="input"><input type="checkbox" name="a" value="M"> M</div></li>
+
+                                <li><div class="input"><input type="checkbox" name="a" value="L"> L</div>
+                                    <div class="input"><input type="checkbox" name="a" value="XL"> XL</div>
+                                    <div class="input"><input type="checkbox" name="a" value="XXL"> XXL</div></li>
+
+                                    </ul>
+                            </div>
+
+                                <div class="trendingnow">
+                                    <h3 class="h3-catalog">Price</h3>
+                                    <input type="range" min="0" max="100" step="1" value="50" class="range">
+                                </div>
                 </div>
-                <div class="showcase">
-                    <div class="product-box">
-                        <div class="container product-flex">
-                            <div class="product">
-                                <a href="#"><img class="product-img" src="img/Layer_2.jpg" alt="photo product 1"></a>
+                <div class="rectangle">
+<div class="rectangle-name">
+<div class="Sort-Name"><p>Sort By</p></div>
+    <div class="select">
+        <p>
+            <select name="name" id="name-select">
+                <option>Name</option>
+                <option>Name</option>
+                <option>Name</option>
+            </select>
+        </p>
+    </div>
+
+</div>
+                    <div class="rectangle-name">
+                        <div class="Sort-Name"><p>Show</p></div>
+                        <div class="select">
+                            <p>
+                                <select name="name" id="na">
+                                    <option>09</option>
+                                    <option>08</option>
+                                    <option>07</option>
+                                </select>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                    <div class="product-box-catalog">
+                        <div class="product-flex">
+
+                            <div class="product-catalog">
+                                <a href="#"><img class="product-img" src="img/Layer_43.jpg" alt="photo product 1"></a>
                                 <div class="product-text">
                                     <a class="product-name" href="#">Mango People T-shirt</a>
                                     <p class="product-price">$52.00</p>
                                 </div>
                                 <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
                             </div>
-                            <div class="product">
-                                <a href="#"><img class="product-img" src="img/Layer_3.jpg" alt="photo product 1"></a>
+                            <div class="product-catalog">
+                                <a href="#"><img class="product-img" src="img/Layer_44.jpg" alt="photo product 1"></a>
                                 <div class="product-text">
                                     <a class="product-name" href="#">Mango People T-shirt</a>
                                     <p class="product-price">$52.00</p>
                                 </div>
                                 <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
                             </div>
-                            <div class="product">
+                            <div class="product-catalog">
                                 <a href="#"><img class="product-img" src="img/Layer_4.jpg" alt="photo product 1"></a>
                                 <div class="product-text">
                                     <a class="product-name" href="#">Mango People T-shirt</a>
@@ -252,23 +315,15 @@
                                 </div>
                                 <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
                             </div>
-                            <div class="product">
-                                <a href="#"><img class="product-img" src="img/Layer_5.jpg" alt="photo product 1"></a>
+                            <div class="product-catalog">
+                                <a href="#"><img class="product-img" src="img/Layer_49.jpg" alt="photo product 1"></a>
                                 <div class="product-text">
                                     <a class="product-name" href="#">Mango People T-shirt</a>
                                     <p class="product-price">$52.00</p>
                                 </div>
                                 <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
                             </div>
-                            <div class="product">
-                                <a href="#"><img class="product-img" src="img/Layer_6.jpg" alt="photo product 1"></a>
-                                <div class="product-text">
-                                    <a class="product-name" href="#">Mango People T-shirt</a>
-                                    <p class="product-price">$52.00</p>
-                                </div>
-                                <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
-                            </div>
-                            <div class="product">
+                            <div class="product-catalog">
                                 <a href="#"><img class="product-img" src="img/Layer_7.jpg" alt="photo product 1"></a>
                                 <div class="product-text">
                                     <a class="product-name" href="#">Mango People T-shirt</a>
@@ -276,8 +331,32 @@
                                 </div>
                                 <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
                             </div>
-                            <div class="product">
+                            <div class="product-catalog">
                                 <a href="#"><img class="product-img" src="img/Layer_8.jpg" alt="photo product 1"></a>
+                                <div class="product-text">
+                                    <a class="product-name" href="#">Mango People T-shirt</a>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                                <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
+                            </div>
+                            <div class="product-catalog">
+                                <a href="#"><img class="product-img" src="img/Layer_6.jpg" alt="photo product 1"></a>
+                                <div class="product-text">
+                                    <a class="product-name" href="#">Mango People T-shirt</a>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                                <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
+                            </div>
+                            <div class="product-catalog">
+                                <a href="#"><img class="product-img" src="img/Layer_2.jpg" alt="photo product 1"></a>
+                                <div class="product-text">
+                                    <a class="product-name" href="#">Mango People T-shirt</a>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                                <a class="product-add" href="#"><img src="img/cart.svg" alt="add"> add to cart</a>
+                            </div>
+                            <div class="product-catalog">
+                                <a href="#"><img class="product-img" src="img/Layer_3.jpg" alt="photo product 1"></a>
                                 <div class="product-text">
                                     <a class="product-name" href="#">Mango People T-shirt</a>
                                     <p class="product-price">$52.00</p>
@@ -286,13 +365,42 @@
                             </div>
                         </div>
                     </div>
-                </div>
+
             </div>
 
 </div>
 
+    <div class="Feature-box">
 <div class="container">
-    <div class="subscribe">
+        <div class="promo-box">
+            <ul>
+                <li><img src="img/Forma_1.png" alt=""></li>
+                <br>
+                <li class="deliver">Free Delivery<br><span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></li>
+            </ul>
+        </div>
+        <div class="promo-box">
+            <ul>
+                <li><img src="img/Forma_2.png" alt=""></li>
+                <br>
+                <li class="deliver">Sales & discounts<br><span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></li>
+            </ul>
+        </div>
+        <div class="promo-box">
+            <ul>
+                <li><img src="img/Forma_3.png" alt=""></li>
+                <br>
+                <li class="deliver">Quality assurance<br><span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></li>
+            </ul>
+        </div>
+</div>
+
+    </div>
+
+
+
+<div class="container">
+    <div class="subscribe-catalog">
         <div id="left">
             <img id="layer40" src="img/Layer_40.png">
             <ul>
@@ -320,7 +428,7 @@
 
     </div>
 
-    <div class="bottom">
+    <div class="bottom-catalog">
         <ul class="info_bottom">
             <li> <a class="logo" href="#"><img class="logo-img" src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span></a></li>
             <li style="color: #898989;font-size: 14px;font-weight: 300;letter-spacing: 0.35px;line-height: 1.7em;">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary
