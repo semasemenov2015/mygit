@@ -675,13 +675,22 @@ a li:hover{
      background-color: white;
  }
 footer{
-display: flex;
+    display: flex;
     justify-content: center;
     position: relative;
     top: 325px;
     background-color: #e6e6e6;
     height: 80px;
- }
+}
+.footer-catalog{
+    display: flex;
+    justify-content: center;
+
+    background-color: #e6e6e6;
+    height: 80px;
+
+
+}
 
 .bottom li{
     list-style-type: none;
@@ -757,6 +766,14 @@ footer p{
     padding:10px 10px 10px;
     background-color: #f16d7f;
 
+}
+.footer-catalog p {
+    line-height: 80px;
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    float: left;
 }
 #social-block{
     display: flex;
