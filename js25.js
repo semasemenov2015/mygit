@@ -15,16 +15,16 @@ mathOperation(a, b, c);
 function mathOperation(arg1, arg2, operation) {
     switch (operation) {
         case '+':
-            alert(`Сумма введенных чисел равна ${sum(arg1, arg2)}`)
+            alert(`Сумма введенных чисел равна ${sum(arg1, arg2)}`);
             break;
         case '-':
-            alert(`Разность введенных чисел равна ${difference(arg1, arg2)}`)
+            alert(`Разность введенных чисел равна ${difference(arg1, arg2)}`);
             break;
         case '*':
-            alert(`Произведение введенных чисел равно ${product(arg1, arg2)}`)
+            alert(`Произведение введенных чисел равно ${product(arg1, arg2)}`);
             break;
         case '/':
-            alert(`Производное от деления чесел равно ${division(arg1, arg2)}`)
+            alert(`Производное от деления чесел равно ${division(arg1, arg2)}`);
             break;
     }
 }
