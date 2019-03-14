@@ -32,8 +32,8 @@ for (let i = 1; i < arr.length; i++) {
 }
 
 
-let arrayMax = [];
-arrayMax = (arr[maxSumOfArrayIndex]);
+
+let arrayMax  = (arr[maxSumOfArrayIndex]);
 //Для того что бы определить минимльное значение массива найдем его максимум
 let max = 0;
 

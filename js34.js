@@ -13,8 +13,6 @@ function check(i) {
         let arr = [];
         for (let kol = 1; kol <= i; kol++) {
             arr.push(kol);
-
-
         }
         for (let kol = 0; kol <= arr.length; kol++) {
             let rez = arr[kol];
